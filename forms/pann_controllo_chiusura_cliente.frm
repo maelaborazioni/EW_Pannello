@@ -1,0 +1,37 @@
+extendsID:"8E14093F-5477-430F-8E96-684235565B78",
+items:[
+{
+extendsID:"1E782720-4E78-446F-B3C7-7029EBDBE52E",
+typeid:7,
+uuid:"31348A34-A7F3-4140-ADAF-9C769FB3B945",
+visible:false
+},
+{
+extendsID:"405175A5-0153-4258-8D4E-24344318B4BE",
+location:"286,0",
+typeid:7,
+uuid:"404AB0CE-D843-4610-BFFE-635D6A966B17",
+visible:false
+},
+{
+formIndex:2,
+location:"0,0",
+name:"lbl_controllo_chiusura",
+size:"181,20",
+styleClass:"title_text",
+text:"Categorie bloccanti da verificare",
+transparent:true,
+typeid:7,
+uuid:"B697A85D-B4A7-41B5-8CDB-D5996BCE0E61"
+},
+{
+extendsID:"36DF376B-FF9A-4D7F-B14D-66603FE962A4",
+toolTipText:"Torna al pannello",
+typeid:7,
+uuid:"D8BFD1B7-E30C-4232-9E1E-A9C4732C0030"
+}
+],
+name:"pann_controllo_chiusura_cliente",
+styleName:"leaf_style",
+typeid:3,
+uuid:"A625A504-53C2-44D4-B169-73BA7FF69605"
