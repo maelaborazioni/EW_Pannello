@@ -1,3 +1,9 @@
+/**
+ * @param {Number} 
+ * 
+ * @properties={typeid:35,uuid:"66FD08F4-CF5D-476A-A039-0595C60A37A6",variableType:-4}
+ */
+var vIdDitta = null;
 
 /**
  * Callback method for when form is shown.

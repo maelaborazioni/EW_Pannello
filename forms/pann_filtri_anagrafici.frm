@@ -22,13 +22,6 @@ typeid:7,
 uuid:"0BAEBD41-5DCF-4F80-96BA-953D22A868AE"
 },
 {
-extendsID:"2FBCE5FF-37BE-4F24-8F04-B011419093FB",
-location:"681,15",
-typeid:4,
-uuid:"17257919-7289-4458-82A8-51877E0576D3",
-visible:false
-},
-{
 extendsID:"F076981D-DFB6-4FD5-9F76-1B07A0DE35F3",
 location:"0,20",
 typeid:4,
@@ -62,7 +55,7 @@ uuid:"2D6AB551-32EA-4224-89F1-25ADFDB17C38"
 },
 {
 extendsID:"2792FE2B-12EE-45F4-970E-E8B616BFB71A",
-height:280,
+height:271,
 typeid:19,
 uuid:"39D7044E-C4EC-49CA-A681-D142C436BD0F"
 },
@@ -119,10 +112,10 @@ uuid:"63B55ADC-7808-4466-AE48-63BE17C81F90",
 visible:false
 },
 {
-dataProviderID:"vGruppoLavoratoriString",
+dataProviderID:"vGroupLavoratoriString",
 extendsID:"0987AA14-4007-4202-8789-068818924178",
-location:"20,230",
-size:"240,50",
+location:"40,230",
+size:"240,20",
 typeid:4,
 uuid:"676DED66-78B8-4C6E-AEDF-00EC889E261F"
 },
@@ -202,7 +195,7 @@ uuid:"E68ACDCD-F176-4A37-BC1B-696A8CF20963"
 },
 {
 extendsID:"0A20DC36-8A86-4BAE-B6D5-E3C8838B66E2",
-location:"0,260",
+location:"20,230",
 typeid:7,
 uuid:"E82F8ECB-D9BE-409B-9CFB-E4333AF24839"
 },

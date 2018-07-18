@@ -13,8 +13,7 @@ function onShow(firstShow, event)
 	var frm = forms.svy_nav_fr_openTabs;
 	globals.objGiornParams[frm.vTabNames[frm.vSelectedTab]].selected_tab = 1;
 
-	mostraTabs();
-	
+	mostraTabs();	
 }
 
 /**

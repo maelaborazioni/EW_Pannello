@@ -144,14 +144,14 @@ function ottieniDipendentiFiltriAnagrafici(idDitta,periodo)
 			sqlFiltri += (" AND L.PosizioneInps IN (" + frmFtrAnag.vPosizioniInps.join(',') + ")") //frmFtrAnag.vPosizioniInps
 	}
 	
-	if(frmFtrAnag.vFilterGruppiLavoratori && frmFtrAnag.vGruppoLavoratori != '')
+	if(frmFtrAnag.vFilterGroupLavoratori && frmFtrAnag.vGroupLavoratori != '')
 	{
 		var params = globals.inizializzaParametriAttivaMese
 		(
 			idDitta, 
             periodo ? periodo : forms.pann_header_dtl.anno * 100 + forms.pann_header_dtl.mese,
 			globals.getGruppoInstallazioneDitta(idDitta), 
-			frmFtrAnag.vGruppoLavoratori,
+			frmFtrAnag.vGroupLavoratori,
 			globals._tipoConnessione
 		);
 		
@@ -170,13 +170,13 @@ function ottieniDipendentiFiltriAnagrafici(idDitta,periodo)
  * 
  * TODO generated, please specify type and doc for the params
  * 
- * @param {JSFoundset<db:/ma_anagrafiche/lavoratori>} fs
+ * @param {JSFoundSet<db:/ma_anagrafiche/lavoratori>} fs
  *
  * @properties={typeid:24,uuid:"EBBE5B1F-83B8-4131-BC86-AAFD6E4D80DC"}
  */
 function FiltraLavoratoriPannello(fs)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/lavoratori>}*/
+	/** @type {JSFoundSet<db:/ma_anagrafiche/lavoratori>}*/
 	var fsLav = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE,globals.Table.LAVORATORI);
 	var frm = forms.svy_nav_fr_openTabs;
 	var params = globals.objGiornParams[frm.vTabNames[frm.vSelectedTab]];
@@ -212,7 +212,7 @@ function FiltraLavoratoriPannello(fs)
  */
 function getLavoratoriPannello()
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/lavoratori>}*/
+	/** @type {JSFoundSet<db:/ma_anagrafiche/lavoratori>}*/
 	var fsLav = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE,globals.Table.LAVORATORI);
 		
 	var frm = forms.svy_nav_fr_openTabs;

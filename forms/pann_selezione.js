@@ -59,7 +59,7 @@ function process_conferma(event)
 			frmFiltri.vFilterQualifica ||
 			frmFiltri.vFilterRaggruppamento ||
 			frmFiltri.vFilterSedeLavoro ||
-			frmFiltri.vGruppoLavoratori)
+			frmFiltri.vGroupLavoratori)
 		forms.pann_header_dtl.aggiornaSituazioneFiltriAnagrafici(true);
 	else
 		forms.pann_header_dtl.aggiornaSituazioneFiltriAnagrafici(false);
