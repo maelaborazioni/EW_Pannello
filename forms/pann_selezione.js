@@ -147,6 +147,7 @@ function onDataChangeMese(oldValue, newValue, event)
  */
 function annullaSelezionePannello(event)
 {
+	globals.ma_utl_setStatus(globals.Status.BROWSE,controller.getName());
 	globals.ma_utl_setStatus(globals.Status.BROWSE,forms.pann_filtri_anagrafici.controller.getName());
     _super.annullaSelezione(event);
 }

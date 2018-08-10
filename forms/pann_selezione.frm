@@ -3,7 +3,7 @@ extendsID:"C2CB5FF3-B44C-40FB-81B7-BF4356EE9235",
 items:[
 {
 extendsID:"18905CB9-62AA-403D-89FC-75B9D4AFDE2C",
-location:"525,405",
+location:"525,400",
 typeid:7,
 uuid:"385CCDD3-7305-45A1-9EF7-743645311D46"
 },
@@ -24,16 +24,16 @@ formIndex:18,
 items:[
 {
 containsFormID:"59C1C00D-A867-438C-8AB1-CF90497DC6BC",
-location:"214,258",
+location:"214,257",
 text:"pann_filtri_anagrafici",
 typeid:15,
 uuid:"3C0DBF47-479D-48E2-830D-D8E8B74A282F"
 }
 ],
-location:"5,160",
+location:"5,159",
 name:"tab_filtri",
 printable:false,
-size:"550,230",
+size:"550,235",
 tabOrientation:-1,
 transparent:true,
 typeid:16,
@@ -47,7 +47,7 @@ parameters:null\
 }\
 }",
 extendsID:"B9EA6F22-A4C4-4A98-93FD-56EB2C067DFA",
-location:"495,405",
+location:"495,400",
 onActionMethodID:"2FBFD18B-5182-45D3-86D1-94961814C4A8",
 typeid:7,
 uuid:"DCE9E4B0-F9FD-4F47-B822-6CC565626097"
