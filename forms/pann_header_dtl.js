@@ -121,27 +121,27 @@ function aggiornaSituazioneFiltriAnagrafici(filtrati)
 		
 		if(frmFiltri.vFilterContratto)
 		{
-			vLblFiltroString += ('<b>Contratto</b> : ' + frmFiltri.vContrattoStringText + '\n');
+			vLblFiltroString += ('<b>Contratto</b> : ' + frmFiltri.vContrattoString + '\n');
 		}
 		if(frmFiltri.vFilterPosizioneInps)
 		{
-			vLblFiltroString += ('<b>Pos.INPS</b> : ' + frmFiltri.vPosizioneInpsStringText + '\n');
+			vLblFiltroString += ('<b>Pos.INPS</b> : ' + frmFiltri.vPosizioneInpsString + '\n');
 		}
 		if(frmFiltri.vFilterQualifica)
 		{
-			vLblFiltroString += ('<b>Qualifica</b> : ' + frmFiltri.vQualificaStringText + '\n');
+			vLblFiltroString += ('<b>Qualifica</b> : ' + frmFiltri.vQualificaString + '\n');
 		}
 		if(frmFiltri.vFilterRaggruppamento)
 		{
-			vLblFiltroString += ('<b>Raggruppamento</b> : ' + frmFiltri.vRaggruppamentiDettaglioStringText + '\n');
+			vLblFiltroString += ('<b>Raggruppamento</b> : ' + frmFiltri.vRaggruppamentiDettaglioString + '\n');
 		}
 		if(frmFiltri.vFilterSedeLavoro)
 		{
-			vLblFiltroString += ('<b>Sedi di lavoro</b> : ' + frmFiltri.vSediLavoroStringText + '\n');
+			vLblFiltroString += ('<b>Sedi di lavoro</b> : ' + frmFiltri.vSediLavoroString + '\n');
 		}
-		if(frmFiltri.vGruppoLavoratori)
+		if(frmFiltri.vFilterGroupLavoratori)
 		{
-			vLblFiltroString += ('<b>Gruppo lavoratori</b> : ' + frmFiltri.vGruppoLavoratoriString + '\n');
+			vLblFiltroString += ('<b>Gruppo lavoratori</b> : ' + frmFiltri.vGroupLavoratoriString + '\n');
 		}
 	}
 	else

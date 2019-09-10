@@ -23,6 +23,7 @@ function stampaGiornalieraPannello(event)
 	var formName = form.controller.getName();
 	var fs = forms.pann_header_dtl.foundset;
 	
+	globals.abilitaRaggruppamenti(forms.stampa_filtri_anagrafici.controller.getName(),true);
 	globals.ma_utl_setStatus(globals.Status.EDIT, formName);
 	globals.ma_utl_showFormInDialog(formName, 'Opzioni di stampa', fs);
 }
@@ -45,8 +46,9 @@ function stampaCartolinePresenzePannello(event)
 	var formName = form.controller.getName();
 	
 	formOpt.vPeriodo = formOpt.vPeriodoAl = new Date(frm.anno,frm.mese - 1,1);
-		
 	var fs = frm.foundset;
+	
+	globals.abilitaRaggruppamenti(forms.stampa_filtri_anagrafici.controller.getName(),true);
 	globals.ma_utl_setStatus(globals.Status.EDIT,formName);
 	globals.ma_utl_showFormInDialog(formName, 'Opzioni di stampa', fs);
 }
@@ -65,6 +67,8 @@ function stampaAnomalieTimbraturePannello(event)
 	var form = forms.stampa_anomalie_timbrature.controller.getName();
 	
 	var fs = forms.pann_header_dtl.foundset;
+	
+	globals.abilitaRaggruppamenti(forms.stampa_filtri_anagrafici.controller.getName(),true);
 	globals.ma_utl_setStatus(globals.Status.EDIT,form);
 	globals.ma_utl_showFormInDialog(form, 'Opzioni di stampa', fs);
 }
