@@ -156,7 +156,7 @@ function ottieniDipendentiFiltriAnagrafici(idDitta,periodo)
 		);
 		
         var dipendenti = globals.getLavoratoriGruppo(params,params.idditta);
-
+        	
 		sqlFiltri += (" AND L.idLavoratore IN (" + dipendenti.join(',') + ")");
 	}
 	
@@ -258,8 +258,10 @@ function aggiornaVisualizzazionePannello(idDitta,anno,mese,event)
 	var frm = forms.svy_nav_fr_openTabs;
 	/** @type {RuntimeTabPanel}*/
 	var tabElements = forms['LEAF_Pannello_tab'].elements['tabs'];
-		
-	if(!globals.haOrologio(idDitta))
+	
+	var isDittaInterinale = globals.isInterinale(idDitta);
+	
+	if(!globals.haOrologio(isDittaInterinale ? globals.getDittaRiferimento(idDitta) : idDitta))
 	{
 		if(tabElements.tabIndex == 2)
 			tabElements.tabIndex = 1;
